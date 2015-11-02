@@ -1,0 +1,15 @@
+2015-11-02 11:41:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO PLAYERS VALUES ('Alice', 100, 10, TRUE [*]"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO players VALUES ('Alice', 100, 10, true [42001-190]
+2015-11-02 11:42:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO PLAYERS VALUES ('Alice', 100, 10, TRUE [*]"; expected "[, ::, *, /, %, +, -, ||, ~, !~, NOT, LIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO players VALUES ('Alice', 100, 10, true [42001-190]
+2015-11-02 11:42:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT + FROM PLAYERS [*]"; expected "., (, AS, RIGHT, LEFT, FULL, INNER, JOIN, CROSS, NATURAL, ,, SELECT"; SQL statement:
+SELECT + FROM players [42001-190]
+2015-11-02 11:44:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "DELET[*] FROM PLAYERS WHERE NAME = 'Bob' "; expected "DELETE, DROP, DECLARE, DEALLOCATE, {"; SQL statement:
+DELET FROM players WHERE name = 'Bob' [42001-190]
+2015-11-02 11:44:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT + FROM PLAYERS [*]"; expected "., (, AS, RIGHT, LEFT, FULL, INNER, JOIN, CROSS, NATURAL, ,, SELECT"; SQL statement:
+SELECT + FROM players [42001-190]
